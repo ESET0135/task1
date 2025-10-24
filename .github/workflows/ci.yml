@@ -11,6 +11,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: echo "Hello GitHub Actions"
-      - run: |
+      - run:
           echo "Current date: $(date)"
           echo "Current branch: ${{ github.ref_name }}"
